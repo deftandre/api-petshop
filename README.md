@@ -20,7 +20,7 @@ To config this project you need to add a folder with name `config` in app source
     }
 ```
 
-run `npm install` and start code
+run `npm install` and start coding
 
 ## Available Scripts
 
@@ -33,3 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## License
+
+[MIT](https://github.com/deftandre/licenses/blob/master/MIT-LICENSE) &copy; André Almeida
