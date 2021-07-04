@@ -2,7 +2,7 @@
 
 ## Description
 
-An api to petshop products providers.
+An api to petshop suppliers.
 
 ## Config
 
