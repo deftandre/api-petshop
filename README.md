@@ -6,7 +6,7 @@ An api to petshop product providers.
 
 ## Config
 
-To config this project you need to add a folder with name: `config` in app source, after that you need to add a file with name `default.json` in this folder with this content:
+To config this project you need to add a folder with name `config` in app source, after that you need to add a file with name `default.json` in this folder with this content:
 
 ```
 "mysql": {
