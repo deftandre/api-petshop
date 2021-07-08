@@ -32,8 +32,16 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use((req, res, next) => {
+    res.set("Access-Control-Allow-Origin", "*");
+    next();
+});
+
 const roteador = require("./rotas/fornecedores");
 app.use("/api/fornecedores", roteador);
+
+const roteadorV2 = require("./rotas/fornecedores/rotas.v2");
+app.use("/api/v2/fornecedores", roteadorV2);
 
 app.use((err, req, res, next) => {
     let status = 500;
